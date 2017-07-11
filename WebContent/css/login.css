@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-height: 1200px;
+}
+/*------------------------------Menu Usuário--------------------------------*/
+li,a{
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+#menuUsu{
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    background-color: black;
+}
+#topoLogin{
+    width: 35px;
+    height: 35px;
+    margin: -35px 0px 0px 1313px;
+}
+.carrinho{
+    width: 30px;
+    cursor: pointer;
+}
+/*---------------------------------Voltar-----------------------------------*/
+.voltar{
+    text-decoration: underline;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 100px;
+}
+.back{
+    width: 15px;
+    position: relative;
+    top: 3px;
+    left: -8px;
+}
+/*--------------------------------log/cad------------------------------------*/
+#log-cad{
+    width: 800px;
+    height: 1150px;
+    margin: 30px auto 0px;
+}
+/*---------------------------------Login-------------------------------------*/
+#logar{
+    width: 370px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.p{
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    font-size: 20px;
+}
+label{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.email{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.acaoEmail{
+    font-size: 13px;
+    position: relative;
+    top: -15px;
+    left: 276px;
+    color: #333;
+    cursor: pointer;
+}
+.acaoEmail:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.lSenha{
+    position: relative;
+    top: -15px;
+    left: 0px;
+}
+.senhaLogin{
+    position: relative;
+    top: -24px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.acaoSenha{
+    font-size: 13px;
+    position: relative;
+    top: -40px;
+    left: 249px;
+    color: #333;
+    cursor: pointer;
+}
+.acaoSenha:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.subLog{
+    width: 150px;
+    height: 40px;
+    background-color: #f00;
+    border: 1px red solid;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 210px;
+    color: #fff;
+    font-size: 25px;
+}
+/*---------------------------------Cadastro----------------------------------*/
+#cadastro{
+    width: 400px;
+    height: 1150px;
+    position: relative;
+    top: -650px;
+    left: 400px;
+}
+.cadastro{
+    height: 1150px;
+}
+.nome{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lSobrenome{
+    position: relative;
+    top: 4px;
+    left: 0px;
+}
+.sobrenome{
+    position: relative;
+    top: -5.7px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lCpf{
+    position: relative;
+    top: -4px;
+    left: 0px;
+}
+.cpf{
+    position: relative;
+    top: -15px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lData{
+    position: relative;
+    top: -15px;
+    left: 0px;
+}
+.data{
+    position: relative;
+    top: -24px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lSexo{
+    position: relative;
+    top: -22px;
+    left: 0px;
+}
+.radioMas{
+    position: relative;
+    top: -25px;
+    left: 0px;
+    width: 30px;
+    height: 20px;
+}
+.pMas{
+    position: relative;
+    top: -82.5px;
+    left: 35px;
+    width: 20px;
+}
+.radioFem{
+    position: relative;
+    top: -156px;
+    left: 170px;
+    width: 30px;
+    height: 20px;
+}
+.pFem{
+    position: relative;
+    top: -213.5px;
+    left: 204px;
+    width: 20px;
+}
+.lCelular{
+    position: relative;
+    top: -245px;
+    left: 0px;
+}
+.celularDDD{
+    position: relative;
+    top: -255px;
+    left: 0px;
+    width: 70px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.celularNum{
+    position: relative;
+    top: -255px;
+    left: 0px;
+    width: 285px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.pAcesso{
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    top: -260px;
+    left: 0px;
+    font-size: 20px;
+}
+.lEmailDois{
+    position: relative;
+    top: -285px;
+    left: 0px;
+}
+.emailCad{
+    position: relative;
+    top: -295px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lSenhaDois{
+    position: relative;
+    top: -295px;
+    left: 0px;
+}
+.senhaUm{
+    position: relative;
+    top: -305px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lConSenha{
+    position: relative;
+    top: -305px;
+    left: 0px;
+}
+.senhaDois{
+    position: relative;
+    top: -315px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.subCad{
+    width: 150px;
+    height: 40px;
+    background-color: #f00;
+    border: 1px red solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 1000px;
+    left: 210px;
+    color: #fff;
+    font-size: 25px;
+}
+.separaLogin{
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    /* height: 1000px; */
+}
+.lEmailFun{
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+.emailFun{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lSenhaFun{
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.senhaFun{
+    position: relative;
+    top: 30px;
+    left: 0px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.subFun{
+    width: 150px;
+    height: 40px;
+    background-color: #f00;
+    border: 1px red solid;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 210px;
+    color: #fff;
+    font-size: 25px;
+}

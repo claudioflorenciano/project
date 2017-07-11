@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Be a Gentleman</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="icon" href="img/suit.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/suit.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body onload="setInterval(moveSlide, 5000)">
+        <!-- Manu para Usuário -->
+        <div id="menuUsu">  
+        </div>
+        <nav id="menuCadastro">
+            <ul>
+                <li><a class="loginLink" href="login.html"><b>Login</b></a></li>
+                <li><a class="cadastroLink" href="login.html"><b>Cadastrar</b></a></li>
+                <li><a class="carrinhoLink" href="carrinho.html"><img class="carrinho" src="img/cart.png"/></a></li>
+            </ul>
+        </nav>
+        <div id="campoPesquisa">
+            <input type="text" class="pesquisa" placeholder="Pesquise aqui..."/>
+            <img class="lupa" src="img/search.png"/>
+        </div>
+        <!-- Menu links site-->
+        <div id="menuConteudo">
+            <nav id="navConteudo">
+                <ul id="ulPrincipalConteudo">
+                    <li class="liConteudo"><a class="home" href="index.html">Home</a></li>
+                    <li class="liConteudo"><a href="vestuario.html" href="javascript:void(0)" class="vestuario">Vestuário</a>
+<!--
+                        <div class="dropdownContent">
+                            <a href="#">Blazer</a>
+                            <a href="#">Camisa</a>
+                            <a href="#">Calça</a>
+                            <a href="#">Casaco</a>
+                            <a href="#">Sapato</a>
+                            <a href="#">Outros</a>
+                            <a href="#">Bengala</a>
+                            <a href="#">Cartola</a>
+                            <a href="#">Charuto</a>
+                            <a href="#">Chapéu</a>
+                            <a href="#">Gravata</a>
+                            <a href="#">Abotoador</a>
+                        </div>
+-->
+                    </li>
+                    <li class="liConteudo"><a class="gentleman">Gentleman</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="slideShow">
+            <div id="slide">
+                <ul>
+                    <li><img id="img1" src="img/1-slide.png"/></li>
+                    <li><img id="img2" src="img/2-slide.png"/></a></li>
+                    <li><img id="img3" src="img/3-slide.png"/></li>
+                </ul>   
+            </div>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Be a Gentleman</title>
+        <link rel="stylesheet" type="text/css" href="css/carrinho.css" />
+        <link rel="icon" href="img/suit.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/suit.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/>
+    </head>
+    <body>
+        <!-- Manu para Usuário -->
+        <div id="menuUsu">  
+        </div>
+        <nav id="menuCadastro">
+            <ul>
+                <li><a class="loginLink" href="login.html"><b>Login</b></a></li>
+                <li><a class="cadastroLink" href="login.html"><b>Cadastrar</b></a></li>
+                <li><a class="carrinhoLink"><img class="carrinho" src="img/cart.png"/></a></li>
+            </ul>
+        </nav>
+        <div id="campoPesquisa">
+            <input type="text" class="pesquisa" placeholder="Pesquise aqui..."/>
+            <img class="lupa" src="img/search.png"/>
+        </div>
+        <!-- Menu links site-->
+        <div id="menuConteudo">
+            <nav id="navConteudo">
+                <ul id="ulPrincipalConteudo">
+                    <li class="liConteudo"><a class="home" href="index.html">Home</a></li>
+                    <li class="liConteudo"><a href="vestuario.html" href="javascript:void(0)" class="vestuario">Vestuário</a></li>
+                    <li class="liConteudo"><a class="gentleman">Gentleman</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="carrinho">
+            <form id="carro">
+                <table>
+                    <tr>
+                        <th>Apaga Produto</th>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Tamanho</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><button>Apagar</button></td>
+                            <input type="hidden">
+                            <input type="hidden">
+                        </form>
+                        <td>Exemplo Blazer</td>
+                        <td>R$ 149,99</td>
+                        <td>1</td>
+                        <td>P</td>
+                        <td>R$ 149,99</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <table id="ttFl">
+                    <tr>
+                        <th>Total Final</th>
+                    </tr>
+                    <tr>
+                        <td>R$ 239,98</td>
+                    </tr>
+            </table>
+        <form id="finalizar">
+            <fieldset>
+                <label class="end">Endereco:</label>
+                <input type="text" class="textoEnd">
+                <label class="cep">CEP:</label>
+                <input type="text" class="textoCep"><br>
+                <label class="num">Número:</label>
+                <input type="text" class="textoNum">
+                <label class="com">Complemento:</label>
+                <input type="text" class="textoCom">
+            </fieldset>
+            <input class="finaliza" type="submit" value="Finalizar Compra"/>
+        </form>
+    </body>
+</html> 

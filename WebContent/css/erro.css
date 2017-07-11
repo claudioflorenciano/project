@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#aviso{
+	width: 250px;
+	margin: auto;
+}
+.haverErro{
+	font-size: 20px;
+}
+#imgErro{
+    width: 500px;
+    margin: auto;
+}
+nav{
+    width: 510px;
+    margin: auto;
+    position: relative;
+    left: -20px;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    background-color: #f00000;
+    width: 200px;
+    padding: 14px 16px;
+    text-align: center;
+    
+}
+a{
+    color: white;
+}
+.voltar{
+    float: left;
+    border-right: 3px black solid;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    cursor: pointer;
+}
+.verErro{
+    float: right;
+    border-left: 3px black solid;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}
+#erros{
+    width: 500px;
+    max-height: 500px;
+    overflow-x: auto;
+    margin: auto;
+    border: 10px black solid;
+    position: relative;
+    top: 50px;
+    border-radius: 12px;
+    display: none;
+}
+.erro{
+    color: #000;
+    font-size: 25px;
+    width: 457px;
+    background-color: #ff9090;
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}
+.active {
+    background-color: #f00 !important;
+}
+a img{
+    width: 50px;
+}
+#AlteraProduto,#ListaProduto,#AdicionarProduto,#ApagaProduto{
+    display: none;
+}
+/*------------------------------Alterar-------------------------*/
+#AlteraProduto table th{
+    width: 256px;
+}
+#AlteraProduto button{
+    width: 100px;
+    height: 30px;
+    background-color: #F00;
+    color: #fff;
+    border: 2px red solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#areAltera{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.7);
+}
+#fechar{
+    position: absolute;
+    right: 80px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    color: azure;
+    font-size: 3em;
+    cursor: pointer;
+}
+#formAltera{
+    margin: auto;
+    width: 550px;
+    height: 700px;
+    position: relative;
+    top: 100px;
+    background-color: #fff;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+#formAltera label{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAltera .texto{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#formAltera textarea{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 500px;
+    height: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.salvar{
+    width: 150px;
+    height: 40px;
+    background-color: #f00;
+    border: 1px red solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+/*-------------------------------Listar-------------------------*/
+table {
+    border-collapse: collapse;
+    width: 1280px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #F00;
+    color: white;
+}
+#ListaProduto button{
+	 width: 100px;
+    height: 30px;
+    background-color: #F00;
+    color: #fff;
+    border: 2px red solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 0px 0px 20px;
+}
+#formAdiciona{
+    margin: auto;
+    width: 550px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+    background-color: #fff;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+#formAdiciona label{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAdiciona .texto{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#areAdiciona{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.7);
+}
+#fecharAdd{
+    position: absolute;
+    right: 80px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    color: azure;
+    font-size: 3em;
+    cursor: pointer;
+}
+.adicionar{
+    width: 150px;
+    height: 40px;
+    background-color: #f00;
+    border: 1px red solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+/*-----------------------------Adicionar------------------------*/
+#formAdicionar{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    border: 4px black solid;
+    border-radius: 8px;
+    position: relative;
+    top: 5px;
+}
+#formAdicionar label{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAdicionar .texto{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#formAdicionar label{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAdicionar textarea{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 500px;
+    height: 100px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#formAdicionar select{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 180px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.cadastrar{
+    width: 150px;
+    height: 40px;
+    background-color: #F00;
+    color: #fff;
+    border: 2px red solid;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: -28px;
+    left: 420px;
+}
+#formAdicionar .marca{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAdicionar .textoMarca{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 180px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#formAddMarca{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    border: 4px black solid;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+}
+#formAddMarca label{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+#formAddMarca .texto{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    width: 360px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*-------------------------------Apagar-------------------------*/
+#ApagaProduto button{
+    width: 100px;
+    height: 30px;
+    background-color: #F00;
+    color: #fff;
+    border: 2px red solid;
+    border-radius: 5px;
+    cursor: pointer;
+}

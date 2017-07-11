@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Be a Gentleman</title>
+        <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
+        <link rel="icon" href="img/suit.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/suit.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="icon-bar">
+            <a class="active" href="index.html"><img src="img/home.png"></a>
+            <a onclick="acende(1)"><img src="img/altera.png"></a> 
+            <a onclick="acende(2)"><img src="img/listar.png"></a> 
+            <a onclick="acende(3)"><img src="img/adicionar.png"></a>
+            <a onclick="acende(4)"><img src="img/apagar.png"></a> 
+        </div>
+        <div id="AlteraProduto">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Área alteração</th>
+                </tr>
+                <tr>
+                    <td>Exemplo Blazer</td>
+                    <td>R$ 149,99</td>
+                    <td>Produto para tal perfeito para tal legal ba garai Exemplo</td>
+                    <td>15</td>
+                    <td><button onclick="exibir('areAltera')">Alterar</button></td>
+                </tr>
+            </table>
+            <div id="areAltera">
+                <div id="fechar" onclick="fechar()">
+                    <img src="img/x.png">
+                </div>
+                <div id="camposAltera">
+                    <form id="formAltera">
+                        <label>Nome</label><br/><br/>
+                        <input class="texto" type="text" name=""/><br/><br/>
+                        <label>Preço</label><br/><br/>
+                        <input class="texto" type="text" name=""/><br/><br/>
+                        <label>Descrição</label><br/><br/>
+                        <textarea></textarea><br/><br/>
+                        <label>Quantidade</label><br/><br/>
+                        <input class="texto" type="number" name=""/><br/><br/>
+                        <input class="salvar" type="submit" value="Salvar">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="ListaProduto">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Quantidade disponível</th>
+                    <th>Tamanho</th>
+                </tr>
+                <tr>
+                    <td>Exemplo Blazer</td>
+                    <td>R$ 149,99</td>
+                    <td>15</td>
+                    <td>P</td>
+                </tr>
+                <tr>
+                    <td>Exemplo Calça</td>
+                    <td>R$ 89,99</td>
+                    <td>20</td>
+                    <td>42</td>
+                </tr>
+            </table>
+        </div>
+        <div id="AdicionarProduto">
+            <form id="formAdicionar" method="" action="">
+                <label>Nome</label><br/><br/>
+                <input class="texto" type="text" name=""/><br/><br/>
+                <label>Descrição</label><br/><br/>
+                <textarea></textarea><br/><br/>
+                <label>Caminho Imagem</label><br/><br/>
+                <input class="texto" type="text" name=""/><br/><br/>
+                <label>Quantidade</label><br/><br/>
+                <input class="texto" type="text" name=""/><br/><br/>
+                <label>Tamanho</label><br/><br/>
+                <select>
+                    <option>00</option>
+                </select><br/><br/>
+                <label class="marca">Marca</label><br/><br/>
+                <select class="textoMarca">
+                    <option>00</option>
+                </select><br/><br/>
+                <label>Preço</label><br/><br/>
+                <input class="texto" type="text" name=""/><br/><br/>
+                <input class="cadastrar" type="submit" value="Cadastrar"/>
+            </form>
+            <form id="formAddMarca">
+                <label>Marca</label><br/><br/>
+                <input type="text" class="texto" name=""/><br/><br/>
+                <input class="cadastrar" type="submit" value="Cadastrar"/>
+            </form>
+        </div>
+        <div id="ApagaProduto">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Quantidade disponível</th>
+                    <th>Tamanho</th>
+                    <th>Área Apagar</th>
+                </tr>
+                <tr>
+                    <td>Exemplo Blazer</td>
+                    <td>R$ 149,99</td>
+                    <td>15</td>
+                    <td>P</td>
+                    <td><button>Apagar</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html> 

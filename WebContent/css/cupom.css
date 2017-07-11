@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#voltar{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.voltar{
+    width: 15px;
+}
+.linkVoltar{
+    color: black;
+    position: relative;
+    top: -3px;
+}
+#cupom{
+    width: 500px;
+    margin: auto;
+    background-color: #ff1717;
+    position: relative;
+    top: 110px;
+}
+.tGentle{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.data{
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.cupName{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.qtd{
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 10px;
+}
+.prod{
+    color: white;
+    position: relative;
+    top: -74px;
+    left: 60px;
+}
+.divisao2{
+    position: relative;
+    top: -80px;
+}
+.quant{
+    color: white;
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+.nomeProd{
+    color: white;
+    width: 400px;
+    position: relative;
+    top: -114px;
+    left: 60px;
+}
+.divisao3{
+    position: relative;
+    top: -110px;
+}
+.nomeCliente{
+    color: white;
+    width: 400px;
+    position: relative;
+    top: -114px;
+    left: 10px;
+}
+.tt{
+    color: white;
+    float: right;
+    position: relative;
+    top: -164px;
+    left: -10px;
+}
+
